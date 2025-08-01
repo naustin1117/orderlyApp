@@ -1,0 +1,25 @@
+[
+  {
+    "name": "Chatbot Settings",
+    "settings": [
+      {
+        "type": "text",
+        "id": "welcome_message",
+        "label": "Welcome message",
+        "default": "Hi there! How can we help?"
+      },
+      {
+        "type": "color",
+        "id": "header_color",
+        "label": "Chat header background",
+        "default": "#222222"
+      },
+      {
+        "type": "checkbox",
+        "id": "open_by_default",
+        "label": "Chat open by default?",
+        "default": false
+      }
+    ]
+  }
+]

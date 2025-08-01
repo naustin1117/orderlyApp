@@ -1,0 +1,45 @@
+# Node modules
+node_modules/
+
+# Output folders
+.build/
+dist/
+.cache/
+.next/
+.vite/
+
+# Environment variables
+.env
+.env.*.local
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IntelliJ project files
+.idea/
+*.iml
+
+# Remix build output (if generated)
+public/build/
+remix.config.js
+
+
+# Docker
+Dockerfile
+.dockerignore
+
+# Shopify CLI theme extension junk
+extensions/*/assets/*.map
+extensions/*/assets/*.js
+extensions/*/assets/*.css
+
+# General build artifacts
+*.tsbuildinfo
+*.log

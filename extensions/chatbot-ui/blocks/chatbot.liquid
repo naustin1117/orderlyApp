@@ -1,0 +1,19 @@
+<!-- /extensions/chatbot-ui/blocks/chatbot.liquid -->
+
+<div id="chatbot-container">
+  <div id="chatbot-header"
+       style="background: {{ block.settings.header_color }};"
+       onclick="toggleChat()">
+    {{ block.settings.welcome_message }}
+  </div>
+
+  <div id="chatbot-body"
+       style="display: {{ block.settings.open_by_default | default: false | if: 'block' | else: 'none' }};">
+    <div id="chat-messages"></div>
+    <input type="text" id="user-input" placeholder="Ask a question..." />
+    <button onclick="sendMessage()">Send</button>
+  </div>
+</div>
+
+<script defer src="https://your-remix-app.up.railway.app/widget.js"></script>
+<link rel="stylesheet" href="https://your-remix-app.up.railway.app/chatbot.css" />
