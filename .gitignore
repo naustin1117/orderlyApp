@@ -27,7 +27,7 @@ Thumbs.db
 *.iml
 
 # Remix build output (if generated)
-public/build/
+/build
 remix.config.js
 
 
